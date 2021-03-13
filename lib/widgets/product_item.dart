@@ -46,9 +46,7 @@ class ProductItem extends StatelessWidget {
                 product.toggleFav(authData.token, authData.userId);
               },
             ),
-          
           ),
-          
           trailing: IconButton(
             icon: Icon(Icons.shopping_cart),
             onPressed: () {
